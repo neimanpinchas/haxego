@@ -26,4 +26,15 @@ https://community.haxe.org/t/go2hx-work-in-progress/2821
 
 https://community.haxe.org/t/how-to-make-the-haxe-compiler-emit-a-separate-type-for-each-generic/3889
 
+## Roadmap
+
+- [x] ClassMaker class (could be modified later for other languages , nim, pascal)
+- [x] boot.go increment and decrement.
+- [ ] boot.go for basic functions (trace)
+- [ ] gettype function support generics
+- [ ] clean up GoPrinter.hx
+- [ ] implement sys
+
+## Support
+
 Currently I am working on it only early morning, and late nights (usualy after going over the manual process of converting a project from rich haxe to poor golang), I wish I could work on it more time, if you wish too you may consider a pull request  (link?) or sponsor some time. https://www.paypal.com/donate/?hosted_button_id=LXPXVLSBCSVEG
