@@ -30,16 +30,22 @@ https://community.haxe.org/t/how-to-make-the-haxe-compiler-emit-a-separate-type-
 
 ## Roadmap
 
+### OOP
 - [x] ClassMaker class (could be modified later for other languages , nim, pascal)
+- [ ] inheritance
+### stdlib
 - [x] boot.go increment and decrement.
 - [ ] boot.go for basic functions (trace)
-- [ ] gettype function support generics
-- [ ] clean up GoPrinter.hx
-- [ ] implement sys
+[ ] implement sys
 - [ ] Dynamic
 - [ ] Json
+### Language elements
 - [ ] try/catch
-- [ ] inheritance
+### Compiler
+- [ ] gettype function support generics
+- [ ] clean up GoPrinter.hx
+
+
 
 
 ## Support
