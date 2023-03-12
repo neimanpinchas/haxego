@@ -36,6 +36,11 @@ https://community.haxe.org/t/how-to-make-the-haxe-compiler-emit-a-separate-type-
 - [ ] gettype function support generics
 - [ ] clean up GoPrinter.hx
 - [ ] implement sys
+- [ ] Dynamic
+- [ ] Json
+- [ ] try/catch
+- [ ] inheritance
+
 
 ## Support
 
