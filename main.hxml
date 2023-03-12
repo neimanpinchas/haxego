@@ -1,0 +1,9 @@
+-main Main
+#-D lua
+#-lib luaxe
+#-cp luaxe/std
+-js bin/hx.go
+#--macro allowSys
+--macro 'GoGen.init_go()'
+-dce full
+#--connect 6000
