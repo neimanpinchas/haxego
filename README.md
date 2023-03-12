@@ -20,6 +20,8 @@ hx2go (https://github.com/pxshadow/go2hx)
 
 Almost like Javascript, Plus some static typing/structs for simple objects to speed it up forther https://github.com/owenthereal/godzilla
 
+Using vendor folder, as a hack to bypass folangs per pc software repos
+
 ## discussion links
 
 https://community.haxe.org/t/go2hx-work-in-progress/2821
