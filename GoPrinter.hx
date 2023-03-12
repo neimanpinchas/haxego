@@ -483,11 +483,11 @@ class GoPrinter {
 				+ '\n${tabs}$_then'
 			+ '\n${_tabs}}';
 		case 2: // if-else (no then-branch)
-			s = 'if not($_cond) then'
-				+ '\n${tabs}$_else'
+				s = 'if (!$_cond) {'
+					+ '\n${tabs}}$_else{'
 			+ '\n${_tabs}}';
 		case 3: // if-then-else
-			s = 'if $_cond then'
+				s = 'if $_cond {'
 				+ '\n${tabs}$_then'
 			+ '\n${_tabs}else'
 				+ '\n${tabs}$_else'
