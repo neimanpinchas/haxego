@@ -10,6 +10,17 @@ Haxe to Go Compiler
 * Bunch of backend libraries
 * Together with go2hx, we could work with both together.
 
+## Why Haxe+Golang > Golang
+* Real generics (Array methods)
+* String interpolation
+* Everything is an expression
+* Static extensions
+* Real Dynamics (when needed)
+* Pattern Matching
+* We all know EcmaScript (torough JavaScript).
+* Slim client side code sharing (vs gopher/wasm).
+
+
 ## Idea
 
 Based on ideas (and code) from luaxe https://github.com/bradparks/LuaXe/tree/master/luaxe/boot
