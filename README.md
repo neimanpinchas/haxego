@@ -10,7 +10,7 @@ Haxe to Go Compiler
 * Bunch of backend libraries
 * Together with go2hx, we could work with both together.
 
-## Why Haxe+Golang > Golang
+## Why Haxe+Golang > Golang (in other words - why haxe!=0 even in presence of Golang)
 * Real generics (Array methods)
 * String interpolation
 * Everything is an expression
