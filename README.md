@@ -27,7 +27,7 @@ Based on ideas (and code) from [luaxe](https://github.com/bradparks/LuaXe/tree/m
 
 [OOP concepts in golang](https://github.com/luciotato/golang-notes/blob/master/OOP.md)
 
-[hx2go](https://github.com/pxshadow/go2hx)
+[hx2go](https://github.com/go2hx/go2hx)
 
 Almost like Javascript, Plus some static typing/structs for simple objects to speed it up forther [gozilla](https://github.com/owenthereal/godzilla)
 
