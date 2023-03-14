@@ -141,7 +141,8 @@ class GoPrinter {
 		case AInline: "inline";
 		case ADynamic: "dynamic";
 		case AMacro: "macro";
-        case AAbstract | AExtern | AFinal | AOverload: "unknown";
+        //case AAbstract | AExtern | AFinal | AOverload: "unknown";
+    case AExtern | AFinal: "unknown";
 	}
 
 	public function printArgs(args:Array<{value:Null<TypedExpr>, v:TVar}>)
