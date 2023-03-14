@@ -1,0 +1,41 @@
+# ---
+# REFLAXE
+#
+# These are normally included in Reflaxe's extraParams.hxml
+# ---
+
+-cp ../src/
+
+--macro nullSafety("reflaxe")
+
+# This will normally be called automatically by the library, but we do it like this for testing.
+--macro reflaxe.ReflectCompiler.Start()
+
+# ---
+# COMPILER LIB
+#
+# These should be used in your lib
+# ---
+
+# Add class paths to your language's standard libs
+-cp std
+-cp std/testscript/_std
+
+# Define your language's unique define for conditional compilation
+-D testscript
+
+# Initiate our compiler with our own function, required for all compilers.
+--macro TestCompiler.Start()
+
+# ---
+# USER HXML
+#
+# This is what should be in user's hxml file
+# ---
+
+# We set "testoutput" as our output define in ReflectCompiler.AddCompiler,
+# so now it tells the compiler to compile to our "test" target to the "out" directory.
+-D testoutput=out
+
+# Main function
+-main MyClass
