@@ -10,6 +10,7 @@ Haxe to Go Compiler
 * Truly cross platform (win, lin, bsd, wasm, avr, ++)
 * Bunch of backend libraries
 * Together with go2hx, we could work with both together.
+* Static binaries easy portable between distributions as long as the hardware match
 
 ## Why Haxe+Golang > Golang (in other words - why haxe!=0 even in presence of Golang)
 * Real generics (Array methods)
