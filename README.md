@@ -1,3 +1,4 @@
+BSD
 # haxego
 
 Haxe to Go Compiler
