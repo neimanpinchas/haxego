@@ -33,7 +33,7 @@ Based on ideas (and code) from [luaxe](https://github.com/bradparks/LuaXe/tree/m
 
 Almost like Javascript, Plus some static typing/structs for simple objects to speed it up forther [gozilla](https://github.com/owenthereal/godzilla)
 
-Using vendor folder, as a hack to bypass folangs per pc software repos
+Using vendor folder, as a hack to bypass golangs per pc software repos
 
 ## discussion links
 
